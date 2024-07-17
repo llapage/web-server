@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webserv | CUSTOM 404</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            text-align: center;
+            position: relative;
+        }
+        .error {
+            background: #444;
+            border: #333 solid 1px;
+            padding: 20px;
+            position: relative;
+        }
+        .error h1 {
+            color: #f90;
+            font-size: 33px;
+            margin-bottom: 5px;
+        }
+        .error p {
+            font-size: 21px;
+        }
+        .version {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error">
+            <h1>404</h1>
+            <p>Custom Page not found</p>
+        </div>
+        <div class="version">
+            <p>Webserv/1.0</p>
+        </div>
+    </div>
+</body>
+</html>
